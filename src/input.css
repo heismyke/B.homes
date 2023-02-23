@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    .logo {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+    /* .font{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    } */
+  }

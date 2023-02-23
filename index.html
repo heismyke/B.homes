@@ -7,6 +7,12 @@
     <title>B.HOMES</title>
     <link rel="stylesheet" href="./dist/output.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/bcf7712443.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display+SC:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
         .background{
             background-image: url(./images/background.jpg);
@@ -22,21 +28,49 @@
         left: -96px;
         top: -140px;
         }
+        @media (max-width: 768px) {
+            .active{
+                top: 50px;
+            }
+        }
     </style>
 </head>
 <body>
     <section class="w-[100%] h-[768px] bg-slate-500 relative background">
-       
+        <div class="w-[80%] h-[80px] bg-none mx-auto relative lg:flex justify-between items-center flex-row nav">
+            <div class="p-5">
+                <a href="#" class="logo text-white">B.HOMES</a>
+            </div>
+            <div class="hamburger ">
+                <i class="fa-solid fa-bars text-white absolute top-5 right-0 block lg:hidden"></i>
+            </div>
+            <div class= "">
+                <ul class=" lg:flex gap-[50px] justify-center items-center font-sans bg-white lg:bg-transparent py-5 lg:py-0 lg:static absolute w-[100%] lg:w-[100%] top-[-1000%] lg:top-[0] active:top-[50px] active links">
+                    <li class="py-2 lg:py-0"><a href="#" class="font  lg:text-white text-gray-700">SERVICES</a></li>
+                    <li class="py-2 lg:py-0"> <a href="#" class="lg:text-white text-gray-700">PRODUCT</a></li>
+                    <li class="py-2 lg:py-0"><a href="#"> <a href="#" class="lg:text-white text-gray-700">ABOUT US</a></a></li>
+                    <li class="py-2 lg:py-0 lg:hidden"><a href="#"> <a href="#" class="lg:text-white text-gray-700">CONTACT US</a></a></li>
+                    <a href="#"><button class="lg:bg-[#2949C6] p-2 rounded-lg lg:text-white text-gray-700 hidden lg:block lg:py-3">CONTACT US</button></a>
+                </ul>
+               
+              
+            </div>
+         
+           
+        </div>
+
+  
         <div class="w-[390px] h-[385px] rounded-full elipse absolute">
             
         </div>
     </section>
    
-
+   
 
 
     <script src="js/wow.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
     <script>
     new WOW().init();
     </script>
