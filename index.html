@@ -28,36 +28,35 @@
         left: -96px;
         top: -140px;
         }
-        @media (max-width: 768px) {
-            .active{
-                top: 50px;
-            }
+        
+        .active{
+            display: flex;
         }
+        ul{
+            display: none;
+        }
+       
     </style>
 </head>
 <body>
     <section class="w-[100%] h-[768px] bg-slate-500 relative background">
-        <div class="w-[90%] h-[80px] bg-none mx-auto relative lg:flex justify-between items-center flex-row nav">
-            <div class="p-5">
-                <a href="#" class="logo text-white">B.HOMES</a>
-            </div>
-            <div class="hamburger ">
-                <i class="fa-solid fa-bars text-white absolute top-5 right-0 block lg:hidden"></i>
-            </div>
-            <div class= "">
-                <ul class=" lg:flex gap-[50px] justify-center items-center font-sans bg-white lg:bg-transparent py-5 lg:py-0 lg:static absolute w-[100%] lg:w-[100%] top-[-1000%] lg:top-[0] active:top-[50px] active links">
-                    <li class="py-2 lg:py-0"><a href="#" class="font  lg:text-white text-gray-700">SERVICES</a></li>
-                    <li class="py-2 lg:py-0"> <a href="#" class="lg:text-white text-gray-700">PRODUCT</a></li>
-                    <li class="py-2 lg:py-0"><a href="#"> <a href="#" class="lg:text-white text-gray-700">ABOUT US</a></a></li>
-                    <li class="py-2 lg:py-0 lg:hidden"><a href="#"> <a href="#" class="lg:text-white text-gray-700">CONTACT US</a></a></li>
-                    <a href="#"><button class="lg:bg-[#2949C6] p-2 rounded-lg lg:text-white text-gray-700 hidden lg:block lg:py-3">CONTACT US</button></a>
+        <nav class="w-[100%] h-[80px] flex justify-center items-center bg-transparent fixed">
+            <div class="w-[95%] lg:w-[80%] md:w-[80%] h-[50px]  mx-auto flex items-center justify-between relative">
+                <div>
+                    <a href="#" class="text-white">B.HOMES</a>
+                </div>
+                <div class="hamburger block lg:hidden">
+                    <i class="fa-solid fa-bars text-white text-2xl"></i>
+                </div>
+                <ul class="lg:flex gap-14 flex-col lg:flex-row absolute top-[50px] lg:static bg-gray-700 lg:bg-transparent w-[100%] lg:w-[40%] lg:items-center lg:justify-center  py-5 px-2  lg:px-0 lg:py-0 lg:rounded-non rounded-lg">
+                    <li><a href="#" class="text-white">SERVICES</a></li>
+                    <li><a href="#" class="text-white">PRODUCT</a></li>
+                    <li><a href="#" class="text-white">ABOUT US</a></li>
+                    <li class="hidden lg:block"><a href="#" class="text-white"><button class="bg-[#2949C6] px-2 py-2 rounded-lg">CONTACT US</button></a></li>
+                    <li class="block lg:hidden"><a href="#" class="text-white">CONTACT US</a></li>
                 </ul>
-               
-              
             </div>
-         
-           
-        </div>
+        </nav>
 
   
         <div class="w-[390px] h-[385px] rounded-full elipse absolute">

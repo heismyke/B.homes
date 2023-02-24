@@ -1,9 +1,13 @@
-const navbar = document.querySelector('.nav');
-const navLinks = document.querySelector('.links');
-const menu = document.querySelector('.hamburger');
-const fa = document.querySelector('.fa-bars');
-
+const menu = document.querySelector('.fa-solid');
+const navLinks = document.querySelector('ul');
 
 menu.addEventListener('click', () =>{
-  navLinks.classList.add('mike')
-})
+    navLinks.classList.toggle('active');
+    if(menu.classList.contains('fa-bars')){
+        menu.classList.replace('fa-bars', 'fa-xmark')
+    }else{
+        menu.classList.replace('fa-xmark', 'fa-bars')
+    }
+});
+
+
