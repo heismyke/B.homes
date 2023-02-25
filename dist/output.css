@@ -727,6 +727,14 @@ video {
   height: 44px;
 }
 
+.h-\[610px\] {
+  height: 610px;
+}
+
+.h-\[630px\] {
+  height: 630px;
+}
+
 .w-\[10\%\] {
   width: 10%;
 }
@@ -884,6 +892,11 @@ video {
   background-color: ;
 }
 
+.bg-yellow-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\)\] {
   background-image: url();
 }
@@ -1024,6 +1037,14 @@ video {
 
   .md\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .md\:w-\[\] {
+    width: ;
+  }
+
+  .md\:w-\[60\%\] {
+    width: 60%;
   }
 
   .md\:pl-0 {
