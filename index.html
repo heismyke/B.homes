@@ -16,6 +16,163 @@
 <link rel="stylesheet" href="./dist/output.css">
     <style>
         .background{
+            background-image: url(./images/house.jpg);
+           background-size: cover;
+           background-repeat: no-repeat;
+            background-position: center;
+            
+        }
+        .elipse{
+            background: rgba(255, 255, 255, 0.2);
+        background-blend-mode: soft-light;
+        filter: blur(100px);
+        left: -96px;
+        top: -140px;
+        }
+        
+        .active{
+            display: flex;
+        }
+        ul{
+            display: none;
+        }
+       .house{
+        background: linear-gradient(150.68deg, rgba(217, 217, 217, 0.2) 11.66%, rgba(217, 217, 217, 0) 122.42%);
+        backdrop-filter: blur(50px);
+       
+       }
+       .houseImg{
+        background-image: url(./images/house.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 400px 400px 0px 0px;
+        box-shadow: 4px 15px 60px rgba(0, 0, 0, 0.4);
+border-radius: 400px 400px 20px 20px;
+        
+       }
+       .img{
+        width: 95%;
+        height: 625px;
+        background-color: green;
+       }
+       .text{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 49px;
+        
+
+       }
+       .text2{
+        width: 100%;
+       }
+       .houseParagraph{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+
+color: #BBBBBB;
+       }
+       input[type = 'text']{
+        outline:none;
+        border-style: none;
+        box-shadow: none;
+        padding-left: 70px;
+       }
+      .houseTwo{
+        background-image: url(./images/house.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .transparent{
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+
+      @media (min-width: 768px) {
+        .background{
+            background-image: url(./images/house.jpg);
+           background-size: cover;
+           background-repeat: no-repeat;
+            background-position: center;
+
+        }
+        .elipse{
+            background: rgba(255, 255, 255, 0.2);
+        background-blend-mode: soft-light;
+        filter: blur(100px);
+        left: -96px;
+        top: -140px;
+        }
+        
+        .active{
+            display: flex;
+        }
+        ul{
+            display: none;
+        }
+       .house{
+        background: linear-gradient(150.68deg, rgba(217, 217, 217, 0.2) 11.66%, rgba(217, 217, 217, 0) 122.42%);
+        backdrop-filter: blur(50px);
+       
+       }
+       .houseImg{
+        background-image: url(./images/house.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 400px 400px 0px 0px;
+        box-shadow: 4px 15px 60px rgba(0, 0, 0, 0.4);
+border-radius: 400px 400px 20px 20px;
+        
+       }
+       .img{
+        width: 95%;
+        height: 625px;
+        background-color: green;
+       }
+       .text{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 49px;
+        
+
+       }
+       .text2{
+        width: 100%;
+       }
+       .houseParagraph{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+
+color: #BBBBBB;
+       }
+       input[type = 'text']{
+        outline:none;
+        border-style: none;
+        box-shadow: none;
+        padding-left: 70px;
+       }
+      .houseTwo{
+        background-image: url(./images/house.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .transparent{
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      } @media (min-width: 992px){
+        .background{
             background-image: url(./images/background.jpg);
            background-size: cover;
            background-repeat: no-repeat;
@@ -92,10 +249,14 @@ color: #BBBBBB;
       .transparent{
         background-color: rgba(0, 0, 0, 0.5);
       }
+      }
     </style>
 </head>
 <body>
     <section class="w-[100%] h-[768px]  relative background">
+        <div class="w-[100%] h-full transparent absolute -z-0 block lg:hidden">
+                    
+        </div>
         <div class="w-[390px] h-[385px] rounded-full elipse absolute">
             
         </div>
@@ -233,12 +394,8 @@ color: #BBBBBB;
             </div>
         </div>
         <!-- for mobile and ipad -->
-        <div class="w-[100%] lg:w-[90%] h-[768px] lg:mx-auto lg:mt-[80px]   block lg:hidden">
-            <div class="w-[100%]  h-[768px] houseTwo">
-                <div class="w-[100%] h-full transparent">
-
-                </div>
-            </div>
+        <div class="w-[100%] lg:w-[90%] h-[700px]  lg:mx-auto lg:mt-[80px]   block lg:hidden">
+            <h1>mike</h1>
             
         </div>
      
