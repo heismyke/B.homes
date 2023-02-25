@@ -655,6 +655,26 @@ video {
   height: 80px;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[769px\] {
+  height: 769px;
+}
+
+.h-\[full\] {
+  height: full;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-\[76px\] {
+  height: 76px;
+}
+
 .w-\[10\%\] {
   width: 10%;
 }
@@ -764,6 +784,34 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[u\] {
+  background-color: u;
+}
+
+.bg-\[url\] {
+  background-color: url;
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(\'\.\/\'\)\] {
+  background-image: url('./');
+}
+
+.bg-\[url\(\'\.\/images\'\)\] {
+  background-image: url('./images');
+}
+
+.bg-\[url\(\'\.\/images\/\'\)\] {
+  background-image: url('./images/');
+}
+
+.bg-\[url\(\'\.\/images\/house\.jpg\'\)\] {
+  background-image: url('./images/house.jpg');
 }
 
 .p-3 {
