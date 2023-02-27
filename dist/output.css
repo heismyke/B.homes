@@ -2038,6 +2038,22 @@ video {
     width: 580px;
   }
 
+  .lg\:w-\[30\%\] {
+    width: 30%;
+  }
+
+  .lg\:w-\[62\.5\%\] {
+    width: 62.5%;
+  }
+
+  .lg\:w-\[5\%\] {
+    width: 5%;
+  }
+
+  .lg\:w-\[10\%\] {
+    width: 10%;
+  }
+
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
