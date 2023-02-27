@@ -1986,6 +1986,10 @@ video {
     height: 700px;
   }
 
+  .lg\:h-auto {
+    height: auto;
+  }
+
   .lg\:w-\[50\%\] {
     width: 50%;
   }
