@@ -1,5 +1,5 @@
-const menu = document.querySelector('.fa-solid');
-const navLinks = document.querySelector('ul');
+const = document.querySelector('.fa-solid');
+const = document.querySelector('ul');
 
 menu.addEventListener('click', () =>{
     navLinks.classList.toggle('active');
